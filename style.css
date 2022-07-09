@@ -1,0 +1,61 @@
+/* Colors and font styles */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header, .hero, footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+  
+header ul {
+    list-style: none;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+
+.information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;    
+}
+
+.action, #sign-up {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.action h2 {
+    font-weight: bold;
+    color: #F9FAF8;
+}
