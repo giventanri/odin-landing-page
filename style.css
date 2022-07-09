@@ -1,7 +1,14 @@
 /* Colors and font styles */
-
+/* * {border: 1px red solid;} */
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body-content {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 header, .hero, footer {
@@ -9,29 +16,91 @@ header, .hero, footer {
     color: #e5e7eb;
 }
 
-header a {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+navigation a {
     text-decoration: none;
     color: #e5e7eb;
 }
   
-header ul {
+navigation ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+navigation li {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 150px 90px;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 30px 0;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hero img {
+    display: flex;
+    width: 40%;
+    flex: 1 0 auto;
+    margin: 30px 100px 30px 0;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0 0 10px 0;
+    padding: 0;
 }
+
+
 
 .hero p {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0 0 10px 0;
 }
 
-header .logo {
-    font-size: 24px;
-    color: #f9faf8;
+#sign-up {
+    border-radius: 6px;
+    height: 2.5em;
+    width: 100px;
+    font-weight:  bolder;
+    border: 0;
+    background: none;
+    box-shadow: none;
 }
 
 
@@ -59,3 +128,4 @@ header .logo {
     font-weight: bold;
     color: #F9FAF8;
 }
+
