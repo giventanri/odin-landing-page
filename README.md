@@ -1,5 +1,7 @@
 # odin-landing-page
 
+Live wepbage: https://giventanri.github.io/odin-landing-page/
+
 Coding from scratch, attempting to duplicate the following:
 
 https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
